@@ -7,15 +7,15 @@ const NewsItemBlock = styled.div`
 
   .thumbnail {
     margin-right: 1.5rem;
-    flex: 0 0 120px; /* Thumbnail 너비 조정 */
+    flex: 0 0 120px; 
     
     img {
       display: block;
       width: 100%;
-      height: 100px; /* Thumbnail 높이 고정 */
+      height: 100px; 
       object-fit: cover;
-      border-radius: 8px; /* 더 둥근 테두리 */
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 그림자 추가 */
+      border-radius: 8px; 
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     }
   }
 
@@ -26,7 +26,7 @@ const NewsItemBlock = styled.div`
 
   h2 {
     margin: 0;
-    font-size: 1.5rem; /* 제목 폰트 사이즈 키우기 */
+    font-size: 1.5rem;
     color: #333;
     transition: color 0.3s;
 
@@ -41,9 +41,9 @@ const NewsItemBlock = styled.div`
 
   p {
     margin-top: 0.5rem;
-    line-height: 1.6; /* 줄 간격 늘리기 */
+    line-height: 1.6; 
     color: #666;
-    font-size: 1rem; /* 내용 폰트 사이즈 */
+    font-size: 1rem; 
   }
 
   & + & {
